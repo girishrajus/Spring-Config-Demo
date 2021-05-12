@@ -1,2 +1,10 @@
 Value1: new1-val
 Value2: another-new1-val
+name:
+    first:girish
+    middle:sundar
+    last:raju
+    study:
+        higher:bbhs
+        puc:vivekananda
+        degree:vishweshwaraiah
