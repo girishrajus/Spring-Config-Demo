@@ -1,4 +1,8 @@
-name:
-    first:girish
-    middle:sundar
-    last:raju
+name: 
+     first: girish
+     middle: sundar
+     last: raju
+     study:
+       higher: bbhs
+       pu: viv
+       deg: vish
