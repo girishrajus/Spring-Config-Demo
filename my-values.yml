@@ -1,5 +1,6 @@
-foo: 
-     pleh: help
-     stuff:
-       foo: bar
-       bar: foo
+name:
+    first:girish
+    middle:sundar
+    last:raju
+    study:
+        higher:bbhs
