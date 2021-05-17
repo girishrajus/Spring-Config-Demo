@@ -1,0 +1,39 @@
+---
+DataSources:
+  Environments:
+  - Name: TEST
+    DBServers:
+    - Name: ''
+      DataSource: ''
+    DBCredentials:
+    - Name: ''
+      ServerName: ''
+      UserID: ''
+      Password: ''
+    Applications:
+    - AppName: ''
+      CredentialName: ''
+  - Name: PRE
+    DBServers:
+    - Name: ''
+      DataSource: ''
+    DBCredentials:
+    - Name: ''
+      ServerName: ''
+      UserID: ''
+      Password: ''
+    Applications:
+    - AppName: ''
+      CredentialName: ''
+  - Name: PROD
+    DBServers:
+    - Name: ''
+      DataSource: ''
+    DBCredentials:
+    - Name: ''
+      ServerName: ''
+      UserID: ''
+      Password: ''
+    Applications:
+    - AppName: ''
+      CredentialName: ''
