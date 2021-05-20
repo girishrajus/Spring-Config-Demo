@@ -1,39 +1,40 @@
 ---
 DataSources:
+  Version: 3.0.0.0
   Environments:
   - Name: TEST
     DBServers:
     - Name: ''
       DataSource: ''
-    DBCredentials:
-    - Name: ''
-      ServerName: ''
-      UserID: ''
-      Password: ''
-    Applications:
-    - AppName: ''
-      CredentialName: ''
+      DBCredentials:
+      - Name: ''
+        ServerName: ''
+        UserID: ''
+        Password: ''
+        Applications:
+        - AppName: ''
+          CredentialName: ''
   - Name: PRE
     DBServers:
     - Name: ''
       DataSource: ''
-    DBCredentials:
-    - Name: ''
-      ServerName: ''
-      UserID: ''
-      Password: ''
-    Applications:
-    - AppName: ''
-      CredentialName: ''
+      DBCredentials:
+      - Name: ''
+        ServerName: ''
+        UserID: ''
+        Password: ''
+        Applications:
+        - AppName: ''
+          CredentialName: ''
   - Name: PROD
     DBServers:
     - Name: ''
       DataSource: ''
-    DBCredentials:
-    - Name: ''
-      ServerName: ''
-      UserID: ''
-      Password: ''
-    Applications:
-    - AppName: ''
-      CredentialName: ''
+      DBCredentials:
+      - Name: ''
+        ServerName: ''
+        UserID: ''
+        Password: ''
+        Applications:
+        - AppName: ''
+          CredentialName: ''
