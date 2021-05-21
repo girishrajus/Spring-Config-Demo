@@ -18,18 +18,32 @@ DataSources:
           Timeout: ''
   - Name: PRE
     DBServers:
-    - Name: ''
-      DataSource: ''
+    - Name: BSCS
+      DataSource: yCnThR7QKuYRNFEjrPC1zvASi58rrvqIbDzb3HLxbVIMTZ9DaTenjwjwrSERMq6fD/VH9qOlSliJlPrhdlbom5VTVRPdqDpaK7K3AiKt1cceYEQW2qRqdWmd/nUG08SHrIDnhYP07epdPq4cYJRLrFRZcsvkx9LrsViAr8/gOiTOixw+63IybAJqcwqn51vYk3jogcHOvQbhPCkVtsT06/aPTJXeboeoR+13DI0BdyE3QiK6tJV9cI0+UlJxnpR20Wtl0eVJd+A8MxeHV6ZT5g==
       DBCredentials:
-      - Name: ''
-        UserID: ''
-        Password: ''
+      - Name: DSREADER
+        UserID: b+84gxdsES90vfFRitzxEA==
+        Password: fG6CsFVDR31hWnTDiBZTCA==
         Applications:
         - Name: DSVERNET
           IsPooling: ''
           MinPoolSize: ''
           MaxPoolSize: ''
           Timeout: ''
+    - Name: DST
+      DataSource: yCnThR7QKuYRNFEjrPC1zvASi58rrvqIbDzb3HLxbVIMTZ9DaTenjwjwrSERMq6fD/VH9qOlSliJlPrhdlbom5VTVRPdqDpaK7K3AiKt1ccTV9fGfG9dnCuDbv62wAYtApOLeiaUvpxjhhtax4id1N6ohvt+kZcQptMqpvhA1Sk7ecWjPwDeNh83r6wcPpjpJLeVGrUGnmfALILhA7stf+vV1h8vh0eBog0/eFzHZTdIywo5v2uWs57xYdrTDcX0GX6kSj8vpBErKmyxW0OPfg==
+      DBCredentials:
+      - Name: QREADER
+        UserID: xIkonVaZnYQ2QYGNMAeX/g==
+        Password: XO0L6MLPK9OU
+        Applications: []
+    - Name: DLR
+      DataSource: yCnThR7QKuYRNFEjrPC1zvASi58rrvqIbDzb3HLxbVIMTZ9DaTenjwjwrSERMq6fD/VH9qOlSliJlPrhdlbom5VTVRPdqDpaK7K3AiKt1ccTV9fGfG9dnCuDbv62wAYtApOLeiaUvpxjhhtax4id1N6ohvt+kZcQptMqpvhA1SmwRlVHMoK/6OefyfHtUi18HN/XIGSeW4ZlSCANJVtzl/4JoPonhXiNlVEAXKQvzRBeIoVMvXroEJpd65joXD2gjV9xlo3ckQjJH+Q7akMIcA==
+      DBCredentials:
+      - Name: DAMSWEB
+        UserID: GITHf9oNC9QLPNyPyNFw5g==
+        Password: FBKJsf7zdbZKsPf9x+w7uw==
+        Applications: []
   - Name: PROD
     DBServers:
     - Name: ''
