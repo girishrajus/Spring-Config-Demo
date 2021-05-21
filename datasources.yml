@@ -25,7 +25,7 @@ DataSources:
         UserID: b+84gxdsES90vfFRitzxEA==
         Password: fG6CsFVDR31hWnTDiBZTCA==
         Applications:
-        - Name: DSVERNET
+        - Name: DSPREPARE
           IsPooling: ''
           MinPoolSize: ''
           MaxPoolSize: ''
@@ -36,14 +36,24 @@ DataSources:
       - Name: QREADER
         UserID: xIkonVaZnYQ2QYGNMAeX/g==
         Password: XO0L6MLPK9OU
-        Applications: []
+        Applications:
+        - Name: DSPREPARE
+          IsPooling: ''
+          MinPoolSize: ''
+          MaxPoolSize: ''
+          Timeout: ''
     - Name: DLR
       DataSource: yCnThR7QKuYRNFEjrPC1zvASi58rrvqIbDzb3HLxbVIMTZ9DaTenjwjwrSERMq6fD/VH9qOlSliJlPrhdlbom5VTVRPdqDpaK7K3AiKt1ccTV9fGfG9dnCuDbv62wAYtApOLeiaUvpxjhhtax4id1N6ohvt+kZcQptMqpvhA1SmwRlVHMoK/6OefyfHtUi18HN/XIGSeW4ZlSCANJVtzl/4JoPonhXiNlVEAXKQvzRBeIoVMvXroEJpd65joXD2gjV9xlo3ckQjJH+Q7akMIcA==
       DBCredentials:
       - Name: DAMSWEB
         UserID: GITHf9oNC9QLPNyPyNFw5g==
         Password: FBKJsf7zdbZKsPf9x+w7uw==
-        Applications: []
+        Applications:
+        - Name: DSPREPARE
+          IsPooling: ''
+          MinPoolSize: ''
+          MaxPoolSize: ''
+          Timeout: ''
   - Name: PROD
     DBServers:
     - Name: ''
@@ -53,7 +63,7 @@ DataSources:
         UserID: ''
         Password: ''
         Applications:
-        - Name: DSVERNET
+        - Name: DSPREPARE
           IsPooling: ''
           MinPoolSize: ''
           MaxPoolSize: ''
