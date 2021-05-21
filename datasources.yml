@@ -8,33 +8,39 @@ DataSources:
       DataSource: ''
       DBCredentials:
       - Name: ''
-        ServerName: ''
         UserID: ''
         Password: ''
         Applications:
-        - AppName: ''
-          CredentialName: ''
+        - Name: DSVERNET
+          IsPooling: ''
+          MinPoolSize: ''
+          MaxPoolSize: ''
+          Timeout: ''
   - Name: PRE
     DBServers:
     - Name: ''
       DataSource: ''
       DBCredentials:
       - Name: ''
-        ServerName: ''
         UserID: ''
         Password: ''
         Applications:
-        - AppName: ''
-          CredentialName: ''
+        - Name: DSVERNET
+          IsPooling: ''
+          MinPoolSize: ''
+          MaxPoolSize: ''
+          Timeout: ''
   - Name: PROD
     DBServers:
     - Name: ''
       DataSource: ''
       DBCredentials:
       - Name: ''
-        ServerName: ''
         UserID: ''
         Password: ''
         Applications:
-        - AppName: ''
-          CredentialName: ''
+        - Name: DSVERNET
+          IsPooling: ''
+          MinPoolSize: ''
+          MaxPoolSize: ''
+          Timeout: ''
