@@ -81,7 +81,7 @@ Configuration:
       - Name: DSCACHENET
         URL: http://localhost/DSCacheNetWebS/DSCacheNetWebS.asmx
         Applications:
-        - Name: PREPARE
+        - Name: DSPREPARE
           Timeout: '1200000'
           Credential:
             Domain: ''
