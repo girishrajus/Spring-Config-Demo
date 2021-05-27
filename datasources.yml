@@ -34,9 +34,9 @@ Configuration:
       - Name: DST
         DataSource: yCnThR7QKuYRNFEjrPC1zvASi58rrvqIbDzb3HLxbVIMTZ9DaTenjwjwrSERMq6fD/VH9qOlSliJlPrhdlbom5VTVRPdqDpaK7K3AiKt1ccTV9fGfG9dnCuDbv62wAYtApOLeiaUvpxjhhtax4id1N6ohvt+kZcQptMqpvhA1Sk7ecWjPwDeNh83r6wcPpjpJLeVGrUGnmfALILhA7stf+vV1h8vh0eBog0/eFzHZTdIywo5v2uWs57xYdrTDcX0GX6kSj8vpBErKmyxW0OPfg==
         DBCredentials:
-        - Name: QREADER
-          UserID: xIkonVaZnYQ2QYGNMAeX/g==
-          Password: XO0L6MLPK9OU
+        - Name: DSSET
+          UserID: yEE6ljW/4UIv2ESbyzxWnw==
+          Password: JONVbH2CXvvgU1iYhelhOA==
           Applications:
           - Name: DSPREPARE
             IsPooling: ''
