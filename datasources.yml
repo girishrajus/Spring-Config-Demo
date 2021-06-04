@@ -60,7 +60,7 @@ Configuration:
         DBCredentials:
         - Name: ARS_CATW
           UserID: L8Lqug/MWL7/F1Tv4OQFmw==
-          Password: oR+TSub4HzHEbZQvgXpnig==
+          Password: aOKn5kfyzNP6a7MseRgZFA==
           Applications:
           - Name: DSPREPARE
             IsPooling: ''
