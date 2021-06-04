@@ -55,6 +55,18 @@ Configuration:
             MinPoolSize: ''
             MaxPoolSize: ''
             Timeout: ''
+      - Name: ARS
+        DataSource: R/fB3n1TKiJH89glnagDtXtGLjHTwbFARz9YG/v94LDfeT3WIvUIHZvdDRhy04qs33NhhCkkvYCtHGInIoRMkC8eZshH+hT95+zd2dT9lB6s0Bz6lwIvygFBaYDz/4e6CfrioR+o49MN8UjEEy3lOFqpkpg7IV3ZUbXEqIdMX2FS7Es+nXe65YabpC8VNnvdw4DJUOp3gMWtQJ9qGVWzNIhpSS4sumYTE3vagqJSb1k=
+        DBCredentials:
+        - Name: ARS_CATW
+          UserID: L8Lqug/MWL7/F1Tv4OQFmw==
+          Password: oR+TSub4HzHEbZQvgXpnig==
+          Applications:
+          - Name: DSPREPARE
+            IsPooling: ''
+            MinPoolSize: ''
+            MaxPoolSize: ''
+            Timeout: ''
     - Name: PROD
       DBServers:
       - Name: ''
@@ -79,7 +91,7 @@ Configuration:
     - Name: PRE
       Sources:
       - Name: DSCACHENET
-        URL: http://localhost/DSCacheNetWebS/DSCacheNetWebS.asmx
+        URL: http://it204rvw.partnernettest.it/DSCacheNetWebS/DSCacheNetWebS.asmx
         Applications:
         - Name: DSPREPARE
           Timeout: '1200000'
