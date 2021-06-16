@@ -43,6 +43,11 @@ Configuration:
             MinPoolSize: ''
             MaxPoolSize: ''
             Timeout: ''
+          - Name: DSQUERYNET
+            IsPooling: ''
+            MinPoolSize: ''
+            MaxPoolSize: ''
+            Timeout: ''
       - Name: DLR
         DataSource: yCnThR7QKuYRNFEjrPC1zvASi58rrvqIbDzb3HLxbVIMTZ9DaTenjwjwrSERMq6fD/VH9qOlSliJlPrhdlbom5VTVRPdqDpaK7K3AiKt1ccTV9fGfG9dnCuDbv62wAYtApOLeiaUvpxjhhtax4id1N6ohvt+kZcQptMqpvhA1SmwRlVHMoK/6OefyfHtUi18HN/XIGSeW4ZlSCANJVtzl/4JoPonhXiNlVEAXKQvzRBeIoVMvXroEJpd65joXD2gjV9xlo3ckQjJH+Q7akMIcA==
         DBCredentials:
