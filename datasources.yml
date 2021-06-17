@@ -72,6 +72,11 @@ Configuration:
             MinPoolSize: ''
             MaxPoolSize: ''
             Timeout: ''
+          - Name: DSQUERYNET
+            IsPooling: ''
+            MinPoolSize: ''
+            MaxPoolSize: ''
+            Timeout: ''
     - Name: PROD
       DBServers:
       - Name: ''
